@@ -11,6 +11,19 @@ Spotify Search is a Flutter project that displays lyrics for songs and top track
 - **Hide unapporiate lyrics**: Hide lyrics that contain explicit content.
 
 ## Screenshots
+<table>
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/d8dc7dda-6fe3-4987-a8df-67c4362a6e89" alt="Screenshot 1" width="300"/></td>
+        <td><img src="https://github.com/user-attachments/assets/802f0ed2-4561-4162-9645-a4ed75eff7fa" alt="Screenshot 2" width="300"/></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/3615f4b7-d14a-40c7-a35a-ec24e89e9017" alt="Screenshot 3" width="300"/></td>
+        <td><img src="https://github.com/user-attachments/assets/9d8f3ece-4bb2-4d9c-b413-192a814fbe5f" alt="Screenshot 4" width="300"/></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><img src="https://github.com/user-attachments/assets/022479a6-6902-4a7b-bfd6-218fdb816000" alt="Screenshot 5" width="300"/></td>
+    </tr>
+</table>
 
 ## Getting Started
 
@@ -59,4 +72,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any inquiries, please contact [yourname@example.com](mailto:anton0ashraf@gmail.com).
+For any inquiries, please contact [me](mailto:anton0ashraf@gmail.com).
