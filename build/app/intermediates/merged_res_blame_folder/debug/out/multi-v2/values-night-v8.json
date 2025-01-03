@@ -4,7 +4,7 @@
             "outputFile": "com.example.spotify_lyrics.app-mergeDebugResources-24:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\AAST\\term 9\\Mobile dev\\project\\spotify_lyrics\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "E:\\Mobile_Application\\Pre_final_mobile\\Spotify-Search\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

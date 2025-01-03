@@ -1,27 +1,27 @@
-com.example.spotify_lyrics.app-jetified-lifecycle-livedata-core-ktx-2.7.0-0 C:\Users\anton\.gradle\caches\transforms-3\051f9dac57ad8cee60cc5a95eb8d9d7f\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
-com.example.spotify_lyrics.app-lifecycle-runtime-2.7.0-1 C:\Users\anton\.gradle\caches\transforms-3\12d0e8d71b0600cec5ba2edcf29e905c\transformed\lifecycle-runtime-2.7.0\res
-com.example.spotify_lyrics.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-2 C:\Users\anton\.gradle\caches\transforms-3\2b2bf4b21be1acb6d8aafc6e5e4bedac\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
-com.example.spotify_lyrics.app-core-runtime-2.2.0-3 C:\Users\anton\.gradle\caches\transforms-3\3cccf64d8e44a1ff0116ea6b8bd8d8e9\transformed\core-runtime-2.2.0\res
-com.example.spotify_lyrics.app-jetified-profileinstaller-1.3.1-4 C:\Users\anton\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\res
-com.example.spotify_lyrics.app-jetified-lifecycle-process-2.7.0-5 C:\Users\anton\.gradle\caches\transforms-3\40a1bd5ff2ce65cd1fad055cc690d356\transformed\jetified-lifecycle-process-2.7.0\res
-com.example.spotify_lyrics.app-jetified-savedstate-1.2.1-6 C:\Users\anton\.gradle\caches\transforms-3\40a45e686cd0e99ac2a33b1453f47939\transformed\jetified-savedstate-1.2.1\res
-com.example.spotify_lyrics.app-jetified-core-1.0.0-7 C:\Users\anton\.gradle\caches\transforms-3\61fbac9cdc1a22c54aa04ec76334a907\transformed\jetified-core-1.0.0\res
-com.example.spotify_lyrics.app-lifecycle-livedata-core-2.7.0-8 C:\Users\anton\.gradle\caches\transforms-3\6964f45bcdaad7c523c03595346078c4\transformed\lifecycle-livedata-core-2.7.0\res
-com.example.spotify_lyrics.app-lifecycle-viewmodel-2.7.0-9 C:\Users\anton\.gradle\caches\transforms-3\7b5a837770709484bd30395a2788a4e5\transformed\lifecycle-viewmodel-2.7.0\res
-com.example.spotify_lyrics.app-lifecycle-livedata-2.7.0-10 C:\Users\anton\.gradle\caches\transforms-3\82d8b2a7d9fca5e641d160069565b477\transformed\lifecycle-livedata-2.7.0\res
-com.example.spotify_lyrics.app-jetified-window-1.2.0-11 C:\Users\anton\.gradle\caches\transforms-3\8859fd2468ade3ef2655d1f63d6737f2\transformed\jetified-window-1.2.0\res
-com.example.spotify_lyrics.app-core-1.13.1-12 C:\Users\anton\.gradle\caches\transforms-3\889ae3adf7a24645889ee22f4dad2cac\transformed\core-1.13.1\res
-com.example.spotify_lyrics.app-jetified-window-java-1.2.0-13 C:\Users\anton\.gradle\caches\transforms-3\8a650b2c5ea333036303d473a939db42\transformed\jetified-window-java-1.2.0\res
-com.example.spotify_lyrics.app-jetified-core-ktx-1.13.1-14 C:\Users\anton\.gradle\caches\transforms-3\8b9f2b08a8ef59d66d7e2f702c5ee30e\transformed\jetified-core-ktx-1.13.1\res
-com.example.spotify_lyrics.app-jetified-activity-1.8.1-15 C:\Users\anton\.gradle\caches\transforms-3\90da4fa7ab29bed17775e89b3905b1f1\transformed\jetified-activity-1.8.1\res
-com.example.spotify_lyrics.app-jetified-startup-runtime-1.1.1-16 C:\Users\anton\.gradle\caches\transforms-3\a1fd92b89d0c194f8fe8fdca4d20e2ee\transformed\jetified-startup-runtime-1.1.1\res
-com.example.spotify_lyrics.app-jetified-annotation-experimental-1.4.0-17 C:\Users\anton\.gradle\caches\transforms-3\c4537ab9015740d05f09a422063523a5\transformed\jetified-annotation-experimental-1.4.0\res
-com.example.spotify_lyrics.app-fragment-1.7.1-18 C:\Users\anton\.gradle\caches\transforms-3\ca4d40f38b71d4c621d36eba6fe2f4a4\transformed\fragment-1.7.1\res
-com.example.spotify_lyrics.app-jetified-tracing-1.2.0-19 C:\Users\anton\.gradle\caches\transforms-3\e896b9ac412a8814559a776dc7b5a420\transformed\jetified-tracing-1.2.0\res
-com.example.spotify_lyrics.app-debug-20 D:\AAST\term 9\Mobile dev\project\spotify_lyrics\android\app\src\debug\res
-com.example.spotify_lyrics.app-main-21 D:\AAST\term 9\Mobile dev\project\spotify_lyrics\android\app\src\main\res
-com.example.spotify_lyrics.app-pngs-22 D:\AAST\term 9\Mobile dev\project\spotify_lyrics\build\app\generated\res\pngs\debug
-com.example.spotify_lyrics.app-resValues-23 D:\AAST\term 9\Mobile dev\project\spotify_lyrics\build\app\generated\res\resValues\debug
-com.example.spotify_lyrics.app-packageDebugResources-24 D:\AAST\term 9\Mobile dev\project\spotify_lyrics\build\app\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.spotify_lyrics.app-packageDebugResources-25 D:\AAST\term 9\Mobile dev\project\spotify_lyrics\build\app\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.spotify_lyrics.app-merged_res-26 D:\AAST\term 9\Mobile dev\project\spotify_lyrics\build\app\intermediates\merged_res\debug
+com.example.spotify_lyrics.app-jetified-window-1.2.0-0 C:\Users\Dell\.gradle\caches\transforms-3\04e7ebc5ed49bc2ff181d0c272382b1f\transformed\jetified-window-1.2.0\res
+com.example.spotify_lyrics.app-jetified-core-ktx-1.13.1-1 C:\Users\Dell\.gradle\caches\transforms-3\06e36a5f7b4c2c76150470419efacfcc\transformed\jetified-core-ktx-1.13.1\res
+com.example.spotify_lyrics.app-core-1.13.1-2 C:\Users\Dell\.gradle\caches\transforms-3\271b2c0a743ad057c29f0aa5a4fb6482\transformed\core-1.13.1\res
+com.example.spotify_lyrics.app-jetified-lifecycle-process-2.7.0-3 C:\Users\Dell\.gradle\caches\transforms-3\31d6bba4dc237cfef46935e044ce6864\transformed\jetified-lifecycle-process-2.7.0\res
+com.example.spotify_lyrics.app-jetified-activity-1.8.1-4 C:\Users\Dell\.gradle\caches\transforms-3\33f28f8ca5c3e6be48a8db1fc4efa198\transformed\jetified-activity-1.8.1\res
+com.example.spotify_lyrics.app-jetified-core-1.0.0-5 C:\Users\Dell\.gradle\caches\transforms-3\38d7092eb644a814f92ff91daddae7f4\transformed\jetified-core-1.0.0\res
+com.example.spotify_lyrics.app-jetified-annotation-experimental-1.4.0-6 C:\Users\Dell\.gradle\caches\transforms-3\39b6a36d05320d5b2f2014dbe53f7bb6\transformed\jetified-annotation-experimental-1.4.0\res
+com.example.spotify_lyrics.app-jetified-lifecycle-livedata-core-ktx-2.7.0-7 C:\Users\Dell\.gradle\caches\transforms-3\3f47470dee80b0a651e0a6ddf68aaf59\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+com.example.spotify_lyrics.app-lifecycle-viewmodel-2.7.0-8 C:\Users\Dell\.gradle\caches\transforms-3\41b2f9a920f28a2de29b7944986c6213\transformed\lifecycle-viewmodel-2.7.0\res
+com.example.spotify_lyrics.app-core-runtime-2.2.0-9 C:\Users\Dell\.gradle\caches\transforms-3\55ef476295df2d095213767ef98f89ef\transformed\core-runtime-2.2.0\res
+com.example.spotify_lyrics.app-jetified-window-java-1.2.0-10 C:\Users\Dell\.gradle\caches\transforms-3\789de37680e64c323a061c78f70e9e38\transformed\jetified-window-java-1.2.0\res
+com.example.spotify_lyrics.app-jetified-profileinstaller-1.3.1-11 C:\Users\Dell\.gradle\caches\transforms-3\85c547779c0a4378878e88836cf358fb\transformed\jetified-profileinstaller-1.3.1\res
+com.example.spotify_lyrics.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-12 C:\Users\Dell\.gradle\caches\transforms-3\8a3dc9d7af570775be1377b9163f8358\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.example.spotify_lyrics.app-jetified-tracing-1.2.0-13 C:\Users\Dell\.gradle\caches\transforms-3\91c2dfacc186ce083fa3b208687032d6\transformed\jetified-tracing-1.2.0\res
+com.example.spotify_lyrics.app-lifecycle-livedata-core-2.7.0-14 C:\Users\Dell\.gradle\caches\transforms-3\964441180fbcd4d58e32f793d6ed9ef7\transformed\lifecycle-livedata-core-2.7.0\res
+com.example.spotify_lyrics.app-jetified-startup-runtime-1.1.1-15 C:\Users\Dell\.gradle\caches\transforms-3\aefcd7c95eeaba513e6ccdeca513fa90\transformed\jetified-startup-runtime-1.1.1\res
+com.example.spotify_lyrics.app-lifecycle-livedata-2.7.0-16 C:\Users\Dell\.gradle\caches\transforms-3\af769352cc13542d0c46afe064193654\transformed\lifecycle-livedata-2.7.0\res
+com.example.spotify_lyrics.app-lifecycle-runtime-2.7.0-17 C:\Users\Dell\.gradle\caches\transforms-3\c2a82a80d630b7ad1c89a83e2ecf2061\transformed\lifecycle-runtime-2.7.0\res
+com.example.spotify_lyrics.app-jetified-savedstate-1.2.1-18 C:\Users\Dell\.gradle\caches\transforms-3\c734dd24afdbedbf4fe4b6b6804b1a0f\transformed\jetified-savedstate-1.2.1\res
+com.example.spotify_lyrics.app-fragment-1.7.1-19 C:\Users\Dell\.gradle\caches\transforms-3\ea48fdc87b1df056af573f9caa62769b\transformed\fragment-1.7.1\res
+com.example.spotify_lyrics.app-debug-20 E:\Mobile_Application\Pre_final_mobile\Spotify-Search\android\app\src\debug\res
+com.example.spotify_lyrics.app-main-21 E:\Mobile_Application\Pre_final_mobile\Spotify-Search\android\app\src\main\res
+com.example.spotify_lyrics.app-pngs-22 E:\Mobile_Application\Pre_final_mobile\Spotify-Search\build\app\generated\res\pngs\debug
+com.example.spotify_lyrics.app-resValues-23 E:\Mobile_Application\Pre_final_mobile\Spotify-Search\build\app\generated\res\resValues\debug
+com.example.spotify_lyrics.app-packageDebugResources-24 E:\Mobile_Application\Pre_final_mobile\Spotify-Search\build\app\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.spotify_lyrics.app-packageDebugResources-25 E:\Mobile_Application\Pre_final_mobile\Spotify-Search\build\app\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.spotify_lyrics.app-merged_res-26 E:\Mobile_Application\Pre_final_mobile\Spotify-Search\build\app\intermediates\merged_res\debug

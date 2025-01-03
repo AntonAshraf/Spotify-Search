@@ -1,1 +1,0 @@
- D:\\AAST\\term\ 9\\Mobile\ dev\\project\\spotify_lyrics\\.dart_tool\\flutter_build\\e1cd32ecf0c2c13be009e49b69744e17\\native_assets.yaml: 

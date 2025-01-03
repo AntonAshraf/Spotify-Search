@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
-export "FLUTTER_ROOT=C:\src\flutter"
-export "FLUTTER_APPLICATION_PATH=D:\AAST\term 9\Mobile dev\project\spotify_lyrics"
+export "FLUTTER_ROOT=E:\flutter\flutter_windows_3.10.6-stable\flutter"
+export "FLUTTER_APPLICATION_PATH=E:\Mobile_Application\Pre_final_mobile\Spotify-Search"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_BUILD_DIR=build"
 export "FLUTTER_BUILD_NAME=0.1.0"

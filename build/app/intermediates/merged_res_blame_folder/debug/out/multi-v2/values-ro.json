@@ -4,7 +4,7 @@
             "outputFile": "com.example.spotify_lyrics.app-mergeDebugResources-24:/values-ro/values-ro.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\anton\\.gradle\\caches\\transforms-3\\889ae3adf7a24645889ee22f4dad2cac\\transformed\\core-1.13.1\\res\\values-ro\\values-ro.xml",
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-3\\271b2c0a743ad057c29f0aa5a4fb6482\\transformed\\core-1.13.1\\res\\values-ro\\values-ro.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

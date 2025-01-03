@@ -1,8 +1,8 @@
-#Thu Jan 02 19:28:54 EET 2025
-base.0=D\:\\AAST\\term 9\\Mobile dev\\project\\spotify_lyrics\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=D\:\\AAST\\term 9\\Mobile dev\\project\\spotify_lyrics\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=D\:\\AAST\\term 9\\Mobile dev\\project\\spotify_lyrics\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.3=D\:\\AAST\\term 9\\Mobile dev\\project\\spotify_lyrics\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+#Fri Jan 03 17:50:07 EET 2025
+base.0=E\:\\Mobile_Application\\Pre_final_mobile\\Spotify-Search\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=E\:\\Mobile_Application\\Pre_final_mobile\\Spotify-Search\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=E\:\\Mobile_Application\\Pre_final_mobile\\Spotify-Search\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.3=E\:\\Mobile_Application\\Pre_final_mobile\\Spotify-Search\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=1/classes.dex
