@@ -16,7 +16,6 @@ class _ArtistDetailScreenState extends State<ArtistDetailScreen> {
   String? _artistInfo;
   String? _artistImage;
   List<Map<String, String>> _topTracks = [];
-  
 
   Future<void> _searchArtist(String artistName) async {
     setState(() {
@@ -28,7 +27,7 @@ class _ArtistDetailScreenState extends State<ArtistDetailScreen> {
     final artistData = await _spotifyService.fetchArtistData(artistName);
 
     if (!mounted) return; // Ensure the widget is still mounted.
-    
+
     if (artistData != null) {
       setState(() {
         _artistInfo = artistData['info'];
@@ -67,11 +66,16 @@ class _ArtistDetailScreenState extends State<ArtistDetailScreen> {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(50),
                     child: Image.network(
-                      _artistImage!,
-                      width: 100,
-                      height: 100,
-                      fit: BoxFit.cover,
-                    ),
+                        _artistImage!,
+                        width: 100,
+                        height: 100,
+                        fit: BoxFit.cover,
+                    )
+                  ),
+                if (_artistImage == null)
+                  const Icon(
+                    Icons.person,
+                    size: 100,
                   ),
                 const SizedBox(width: 20),
                 Column(
@@ -122,7 +126,8 @@ class _ArtistDetailScreenState extends State<ArtistDetailScreen> {
                                   artistName: _artistInfo!
                                       .split('\n')
                                       .first
-                                      .split(': ')[1]),
+                                      .split(': ')[1],
+                                  songImage: track['image'] ?? ''),
                             ),
                           );
                         },
@@ -141,6 +146,8 @@ class _ArtistDetailScreenState extends State<ArtistDetailScreen> {
                 ),
               ),
             ],
+            if (_topTracks.isEmpty && _artistInfo != null)
+              Center(child: const Text('No Tracks Found.')),
           ],
         ),
       ),

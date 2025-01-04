@@ -55,106 +55,104 @@ class _ArtistSearchScreenState extends State<ArtistSearchScreen>
   }
 
   Widget _buildArtistList() {
-  if (_artists.isEmpty) {
-    return Center(
-      child: Image.asset(
-        'assets/music.png',
-        width: 150,
-        height: 150,
-        opacity: const AlwaysStoppedAnimation(0.5),
-      ),
+    if (_artists.isEmpty) {
+      return Center(
+        child: Image.asset(
+          'assets/music.png',
+          width: 150,
+          height: 150,
+          opacity: const AlwaysStoppedAnimation(0.5),
+        ),
+      );
+    }
+
+    return ListView.builder(
+      itemCount: _artists.length,
+      itemBuilder: (context, index) {
+        final artist = _artists[index];
+        return Card(
+          color: Colors.green[50],
+          margin: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
+          child: ListTile(
+            onTap: () async {
+              final artistData =
+                  await _spotifyService.searchArtists(artist['id'] ?? '');
+              if (artistData != null) {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ArtistDetailScreen(
+                        artistName: artist['name'] ?? 'Unknown'),
+                  ),
+                );
+              }
+            },
+            leading: (artist['image']?.isNotEmpty ?? false)
+                ? ClipRRect(
+                    borderRadius: BorderRadius.circular(25),
+                    child: Image.network(
+                      artist['image']!,
+                      width: 50,
+                      height: 50,
+                      fit: BoxFit.cover,
+                    ),
+                  )
+                : const Icon(Icons.person),
+            title: Text(artist['name'] ?? 'Unknown'),
+          ),
+        );
+      },
     );
   }
 
-  return ListView.builder(
-    itemCount: _artists.length,
-    itemBuilder: (context, index) {
-      final artist = _artists[index];
-      return Card(
-        color: Colors.green[50],
-        margin: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
-        child: ListTile(
-          onTap: () async {
-            final artistData =
-                await _spotifyService.searchArtists(artist['id'] ?? '');
-            if (artistData != null) {
+  Widget _buildSongList() {
+    if (_songs.isEmpty) {
+      return Center(
+        child: Image.asset(
+          'assets/music.png',
+          width: 150,
+          height: 150,
+          opacity: const AlwaysStoppedAnimation(0.5),
+        ),
+      );
+    }
+
+    return ListView.builder(
+      itemCount: _songs.length,
+      itemBuilder: (context, index) {
+        final song = _songs[index];
+        return Card(
+          color: Colors.green[50],
+          margin: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
+          child: ListTile(
+            onTap: () {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) =>
-                      ArtistDetailScreen(artistName: artist['name'] ?? 'Unknown'),
+                  builder: (context) => LyricsScreen(
+                      trackName: song['name'] ?? 'Unknown',
+                      artistName: song['artist'] ?? 'Unknown',
+                      songImage: song['image'] ?? ''),
                 ),
               );
-            }
-          },
-          leading: (artist['image']?.isNotEmpty ?? false)
-              ? ClipRRect(
-                  borderRadius: BorderRadius.circular(25),
-                  child: Image.network(
-                    artist['image']!,
-                    width: 50,
-                    height: 50,
-                    fit: BoxFit.cover,
-                  ),
-                )
-              : const Icon(Icons.person),
-          title: Text(artist['name'] ?? 'Unknown'),
-        ),
-      );
-    },
-  );
-}
-
-
-  Widget _buildSongList() {
-  if (_songs.isEmpty) {
-    return Center(
-      child: Image.asset(
-        'assets/music.png',
-        width: 150,
-        height: 150,
-        opacity: const AlwaysStoppedAnimation(0.5),
-      ),
+            },
+            leading: (song['image']?.isNotEmpty ?? false)
+                ? ClipRRect(
+                    borderRadius: BorderRadius.circular(25),
+                    child: Image.network(
+                      song['image']!,
+                      width: 50,
+                      height: 50,
+                      fit: BoxFit.cover,
+                    ),
+                  )
+                : const Icon(Icons.music_note),
+            title: Text(song['name'] ?? 'Unknown'),
+          ),
+        );
+      },
     );
   }
-
-  return ListView.builder(
-    itemCount: _songs.length,
-    itemBuilder: (context, index) {
-      final song = _songs[index];
-      return Card(
-        color: Colors.green[50],
-        margin: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
-        child: ListTile(
-          onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => LyricsScreen(
-                  trackName: song['name'] ?? 'Unknown',
-                  artistName: song['artist'] ?? 'Unknown',
-                ),
-              ),
-            );
-          },
-          leading: (song['image']?.isNotEmpty ?? false)
-              ? ClipRRect(
-                  borderRadius: BorderRadius.circular(25),
-                  child: Image.network(
-                    song['image']!,
-                    width: 50,
-                    height: 50,
-                    fit: BoxFit.cover,
-                  ),
-                )
-              : const Icon(Icons.music_note),
-          title: Text(song['name'] ?? 'Unknown'),
-        ),
-      );
-    },
-  );
-}
-
 
   @override
   Widget build(BuildContext context) {

@@ -139,11 +139,11 @@ class SpotifyService {
 
     if (response.statusCode == 200) {
       final Map<String, dynamic> data = json.decode(response.body);
+      print("Data: $data");
       final List<dynamic> tracks = data['tracks']['items'];
       return tracks.map((track) {
         final album = track['album'];
         final artist = track['artists'][0]['name'].toString();
-
         return {
           'id': track['id'],
           'name': track['name'],
