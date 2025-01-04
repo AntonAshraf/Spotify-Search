@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:spotify_lyrics/utils/badwords.dart';
 
 class LyricsScreen extends StatelessWidget {
   final String trackName;
@@ -10,7 +11,7 @@ class LyricsScreen extends StatelessWidget {
 
   Future<String> fetchLyrics(String trackName) async {
     // List of inappropriate words
-    final List<String> inappropriateWords = ['badword1', 'badword2', 'badword3'];
+    final List<String> inappropriateWords = badWords;
 
     final response = await http.get(
       Uri.parse('https://lrclib.net/api/get?artist_name=$artistName&track_name=$trackName'),
